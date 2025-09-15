@@ -1,0 +1,17 @@
+experiment_type: full_experiment
+seed: 42
+# Training
+do_training: true
+num_epochs: 10
+batch_size: 4
+learning_rate: 5e-5
+# Data
+use_full_data: true
+laion_samples: 50000
+coco_samples: 10000
+num_workers: 8
+# Evaluation
+num_inference_steps: 20
+do_ablation: true
+# Output
+save_dir: .research/iteration1/full

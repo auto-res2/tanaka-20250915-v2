@@ -1,0 +1,15 @@
+experiment_type: smoke_test
+seed: 42
+# Training
+do_training: true
+num_epochs: 2
+batch_size: 2
+learning_rate: 5e-5
+# Data
+use_full_data: false
+num_workers: 2
+# Evaluation
+num_inference_steps: 10
+do_ablation: true
+# Output
+save_dir: .research/iteration1/smoke
